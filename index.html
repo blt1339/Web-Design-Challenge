@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
+    <head>
+        <title>Weather Landing Page</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/superhero/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-LS4/wo5Z/8SLpOLHs0IbuPAGOWTx30XSoZJ8o7WKH0UJhRpjXXTpODOjfVnNjeHu" crossorigin="anonymous">        <meta charset = "UTF-8">
+        <link rel="stylesheet" type = "text/css" href= "style.css">
+        </head> 
+
+    <body>
+
+    <nav class="navbar navbar-custom navbar-expand-sm navbar-light bg-white">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
     
-</body>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="max-temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind-speed.html">Wind Speed</a>
+                    </div>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>            
+            </ul>
+        </div>
+    </nav>
+
+          
+
+    <div class="parent-container d-flex">
+        <div class="row">
+            <container class='landing'>
+                <div class="col-lg-8">
+                    <h1 class='summary'>Comparison: Latitude vs. X</h1>
+
+                    <img src="Resources/assets/images/Fig1.png" alt="Fig1.png" style="float:left;width:300px;height:250px;padding-right:10px;display:block;">
+                    <P class='summarywords'>
+                        The purpose of this project was to analye how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.
+                    </p>
+                    <P class='summarywords'>
+                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.  Factores we looked at included: temperature, cloudiness, wind speed, and humidity.  This site proides the source data and visualizations created as part of the analysis, as well as explainations and descriptions of any trends and correlations witnessed.
+                    </p>
+
+               </div>
+            </container>
+
+            <container class='visualizations'>
+                <div class="col-lg-12">
+                    <h1>Visualizations</h1>
+                    <div class = "row">
+                        <div class = "col-6">
+                        <a href="max-temperature.html"><img src="Resources/assets/images/Fig1.png" alt="Fig1.png" style="width:100%;height:90%;display:block;"></a>
+                        </div>
+                        <div class = "col-6">
+                        <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Fig2.png" style="width:100%;height:90%;display:block;"></a>
+                        </div>                       
+                    </div>
+                    <div class = "row">
+                        <div class = "col-6">
+                        <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Fig3.png" style="width:100%;height:90%;display:block;"></a>
+                        </div>
+                        <div class = "col-6">
+                        <a href="wind-speed.html"><img src="Resources/assets/images/Fig4.png" alt="Fig4.png" style="width:100%;height:90%;display:block;"></a>
+                        </div>                       
+                    </div>                    
+                    
+                    
+                </div>
+            </container>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>

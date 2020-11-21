@@ -1,0 +1,86 @@
+
+body {
+    background-color: lightgray;
+}
+h1 {
+    color: #4aaaa5;
+    padding-left: 20px;
+}
+
+.landing {
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}
+
+.visualizations {
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-left: 20px;
+
+}
+.col-6 {  
+    float: left;
+    width: 50%;
+    padding: 5px;
+    display: block;
+
+
+}
+
+.summary {
+    width:600px;
+}
+
+.summarywords {
+    font-size: 20px;
+    width: 700px;
+ }
+
+
+.fig1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+
+
+}
+p {
+    font-size: 16px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+nav {
+    display: inline-block;
+    background-color: white;
+ }
+ 
+
+ .parent-container {
+    padding-top: 80px;
+    padding-left: 200px;
+ 
+
+ }
+
+.navbar-custom .navbar-brand { 
+    color: white; 
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color:white;  
+}
+.navbar-nav > li > .dropdown-menu a {
+     color: black; 
+ }
