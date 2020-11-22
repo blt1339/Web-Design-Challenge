@@ -16,6 +16,12 @@ h1 {
     color: black;
 }
 
+.comparison {
+    width:900px;
+    height:570px;
+    background-color: white;
+
+}
 .visualizations {
     background-color: white;
     width: 300px;
@@ -32,7 +38,14 @@ h1 {
 
 
 }
+.col-5 {  
+    float: left;
+    width: 50%;
+    padding: 5px;
+    display: block;
 
+
+}
 .summary {
     width:600px;
 }
@@ -68,7 +81,7 @@ nav {
  
 
  .parent-container {
-    padding-top: 80px;
+    padding-top: 30px;
     padding-left: 200px;
  
 
@@ -83,4 +96,11 @@ nav {
 }
 .navbar-nav > li > .dropdown-menu a {
      color: black; 
+ }
+
+ .text-center {
+    color:#4aaaa5;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
  }
