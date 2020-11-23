@@ -1,7 +1,7 @@
 body {
     background-color: lightgray;
 }
-@media (max-width: 600px) 
+@media (max-width: 800px) 
 {
     body {
         background-color:white;
@@ -21,11 +21,18 @@ body {
 h1 {
     color: #4aaaa5;
     padding-left: 20px;
-}.visualizations {
+
+}
+.comparision h3 {
+    color: #4aaaa5;
+
+
+}
+
+.visualizations {
     background-color: white;
     width: 300px;
     height: 300px;
-    display: block;
     margin-left: 20px;
 
 }
@@ -34,20 +41,17 @@ h1 {
 }
 
 
-@media (max-width: 600px) 
+@media (max-width: 800px) 
 {   
     .visualizations 
     {
-        background-color: white;
-        width: 150px;
-        height: 150px;
+        width: 600px;
         margin-left:0;
         margin-top:1px;
- 
     }
     .visualizations h1
     {
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
@@ -65,11 +69,17 @@ h1 {
     width:900px;
     height:570px;
     background-color: white;
-    display:block;
+  
 }
 
-
-
+@media (max-width: 800px) 
+{   
+    .comparison {
+        width:900px;
+        height:570px;
+        background-color: white;
+    }
+}
 
 
 
@@ -91,8 +101,6 @@ h1 {
         margin-right:60px;
         color:black;
     }
-
-
 }
 .max-temperature {
     background-color: white;
@@ -129,9 +137,25 @@ h1 {
     padding: 5px;
 }
 
+.col-5 {  
+    color: #4aaaa5;
+    float: left;
+    width: 70%;
+    padding: 5px;
+}
+
 .summary {
     width:600px;
+    font-size:32px;
 }
+@media (max-width: 800px) 
+{ 
+    .summary {
+        width:500px;
+        font-size:24px;
+    }
+}
+
 .landing-summary {
     width:600px;
     padding-bottom:40px;
@@ -140,7 +164,6 @@ h1 {
     font-size: 20px;
     width: 700px;
  }
-
 
 .fig1 {
     width: 200px;
@@ -178,6 +201,14 @@ nav {
 
  }
 
+ @media (max-width: 800px) 
+ { 
+    .parent-container 
+    {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+ }
 .navbar-custom .navbar-brand { 
     color: white; 
 }
@@ -189,19 +220,31 @@ nav {
      color: black; 
  }
 
- .text-center {
+.text-center {
     color:#4aaaa5;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
  }
+ @media (max-width: 800px) 
+ {
+    .text-center {
+        color:#4aaaa5;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+ }
+
+
+
 
 .dataframe {
     color:black;
 }
 
 
-@media (max-width: 600px) 
+@media (max-width: 800px) 
 {  
     table { 
         border-collapse: collapse; 
