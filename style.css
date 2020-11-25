@@ -343,3 +343,8 @@ tr:last-child {
 .data-instruct {
     padding-left:20px;
 }
+
+.comparison-instruct {
+    padding-left:20px;
+    color:black;
+}
