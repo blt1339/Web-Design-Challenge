@@ -2,7 +2,7 @@
 ![Images/landingResize.png](Images/landingResize.png)
  
 # Background
-[Project Details]
+[Project Details](project_instructions_README.md)
 
 The main portion of this project was to create a Latitude Analysis Dashboard.
 
